@@ -1,9 +1,9 @@
-Config                              = Config or {}
+Config = Config or {}
 
-Config.GivingInformation                   = true
-Config.VehicleFolderPack            = "[Name]"
+Config.GivingInformation = true
+Config.VehicleFolderPack = "[Name]"
 
-Config.ExtraVehicles                = {
+Config.ExtraVehicles     = {
     "name",
     "name"
 }

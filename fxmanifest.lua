@@ -5,9 +5,14 @@ author 'GhostFaceScripts'
 description 'GhostFace VehicleLoader'
 version '1.0.0'
 
-shared_script 'config.lua'
-client_script 'client.lua'
-server_script 'server.lua'
+client_script {
+    'client/client.lua',
+    'config.lua'
+}
+server_script {
+    'server/server.lua',
+    'config.lua'
+}
 
 fivem_checker 'yes'
 
